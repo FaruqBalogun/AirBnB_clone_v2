@@ -6,7 +6,7 @@ from os.path import exists, basename, splitext
 from datetime import datetime
 from fabric.api import env, task, put, local, run
 env.use_ssh_config = True
-env.hosts = ["54.237.61.71", "54.146.64.127"]
+env.hosts = ["3.90.85.154", "100.26.121.40"] #This contains the IP address of web-01 and web-02
 
 
 def do_pack():
